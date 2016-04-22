@@ -1,0 +1,84 @@
+/*header {
+	background-image: url('img/responsive-list.jpg');
+	background-repeat: no-repeat;
+	padding: 3em 0;
+}*/
+
+h1 {
+	font-size: 2em;
+	margin: 1.5em 0;
+}
+
+h2 {
+	font-size: 1.6em;
+	text-align: center;
+	margin: 0 0 2em 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-bottom: 2.5em;
+	margin-top: 2em;
+}
+
+img {
+	max-width: 100%;
+}
+
+form {
+	padding: 0;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container p {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#logout {
+	position: relative;
+	left: -15px;
+	margin: 0 0 2em 0;
+}
+
+button {
+	margin-top: 1em;
+}
+
+footer {
+	margin-top: 4em;
+}
+
+@media screen and (min-width: 40em) {
+
+	h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+	header div:nth-child(2) {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pull-right-lg {
+	float: right;
+}
+
+
+}
