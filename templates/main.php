@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-sm-10 col-sm-offset-1">
         <h3 class="text-center">Create your list by entering your items to the field below and clicking Add to list. Your list will generate at the bottom of this page.</h3>
-        <input type="submit" id="logout" class="btn btn-info" formaction="../logout.php" value="Logout">
+        <a href="http://kellyparks.info/php-list/logout.php" class="btn btn-info" id="logout">Logout</a>
         <?php echo $errors ?>
         <form method="post" class="form-horizontal">
             <div class="form-group">
